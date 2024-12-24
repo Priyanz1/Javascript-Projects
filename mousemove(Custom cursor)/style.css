@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.cursor{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    transition: scale ease 0.1s;
+    transform: translate(-50%,-50%);
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+font-size: 100px;
+color: white;
+mix-blend-mode: difference;
+letter-spacing: 10px;
+}

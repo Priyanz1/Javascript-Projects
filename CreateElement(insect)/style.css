@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1730078556526-a90ce9385e74?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover; */
+}
+button{
+    padding: 20px 40px;
+    background:greenyellow;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(126, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.bulb{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 50%;
+}
+.btn{
+    padding: 10px 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.btn:active{
+scale:1.1;
+}

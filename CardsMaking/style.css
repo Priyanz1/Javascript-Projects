@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+.Cards{
+    margin-top: 100px;
+    width: 59%;
+background-color: greenyellow;
+padding: 20px;
+gap: 15px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.Card{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top:20px ;
+}
+img{
+    height: 170px;
+    width: 170px;
+}
+
+.Card div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 15px;
+}
+.Card p{
+   margin-top: 10px;
+   font-size: 1.3rem;
+}
+.Card button{
+padding: 10px 20px;
+background-color: aquamarine;
+border:1px solid rgb(166, 157, 157);
+border-radius: 5px;
+}
+.Cards::webkit-scrollbar{
+    Display: none;
+}
+.Card button:active{
+    scale: 1.1;
+}

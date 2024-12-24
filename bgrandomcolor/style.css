@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 94, 94);
+}
+.btn{
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(110, 206, 174);
+    border: none;
+    border-radius: 10px;
+}

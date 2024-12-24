@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:#24292E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 100px;
+    width: 338px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+    position: relative;
+}
+.storyian{
+    width: 100%;
+    height: 98px;
+    white-space: nowrap;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.storyian::-webkit-scrollbar{
+    margin-top: 0px;
+display: none;
+}
+.StoryPnl{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display:none;
+}
+.status{
+    height: 78px;
+    width: 78px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 2px;
+}
+.status img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.font{
+padding-top: 10px;
+padding-left: 15px;
+margin-bottom: 0px;
+}
+
+
+.folwrname{
+    padding: 15px 5px;
+}
+
+.folwrpic{
+    width: 100%;
+    height: 350px;
+}
+
+.folwrbio{
+    padding: 5px 5px;
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+

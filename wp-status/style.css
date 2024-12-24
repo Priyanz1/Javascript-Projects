@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 20%;
+    height: 400px;
+    background-color: rgb(53, 51, 51);
+    border-radius: 10px;
+    overflow: auto;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.allStatus{
+    margin-top:60px ;
+}
+
+div h2{
+    width: 20%;
+    background-color:  rgb(53, 51, 51);
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    position: fixed;
+    z-index: 4;
+}
+.perstatus{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 20px;
+}
+.perstatus div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.status{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height:100%;
+    width: 100%;
+}
